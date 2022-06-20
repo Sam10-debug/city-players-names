@@ -14,7 +14,7 @@ async function getApi(){
 	first.textContent= data.name
 	second.textContent=data.age
 	third.textContent=data.nationality
-	console.log(data)
+	// console.log(data)
 }
 getApi()
 }
