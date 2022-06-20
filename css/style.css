@@ -9,3 +9,23 @@ body{
 section{
 	padding: 1rem;
 }
+h1{
+	margin-bottom: 1rem;
+}
+button{
+	padding: 0.2rem;
+	border-radius: 0.3rem;
+}
+input{
+	font-size: 1.3rem;
+	margin-right: 2%;
+}
+span{
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-right: 10px;
+}
+div{
+	display: flex;
+	align-items: center;
+}

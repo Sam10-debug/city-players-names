@@ -11,7 +11,7 @@ const func=()=>{
 async function getApi(){
 	const res= await fetch(`https://city-names-api.herokuapp.com/api/${input.value}`)
 	const data = await res.json()
-	first.textContent=data.name
+	first.textContent= data.name
 	second.textContent=data.age
 	third.textContent=data.nationality
 	console.log(data)
