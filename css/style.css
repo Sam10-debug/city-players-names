@@ -62,4 +62,7 @@ h2{
 		width: 65%;
 		height: fit-content;
 	}
+	button{
+		margin-top: 0.7rem;
+	}
 }
